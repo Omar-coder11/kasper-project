@@ -15,6 +15,7 @@
 }
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 body {
     font-family: "Open Sans", sans-serif;
@@ -23,27 +24,27 @@ ul {
     list-style: none;
 }
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     margin-left: auto;
     margin-right: auto;
 }
 /* Small */
 @media (min-width: 768px) {
     .container {
-        width: 750px;
+        width: 75rem;
     }
 }
 /* Medium */
 @media (min-width: 992px) {
     .container {
-        width: 970px;
+        width: 97rem;
     }
 }
 /* Large */
 @media (min-width: 1200px) {
     .container {
-        width: 1170px;
+        width: 117rem;
     }
 }
 /* End Global Values */
@@ -54,8 +55,8 @@ ul {
 .main-heading h2 {
     position: relative;
     font-weight: normal;
-    font-size: 40px;
-    margin-bottom: 70px;
+    font-size: 4rem;
+    margin-bottom: 7rem;
     text-transform: uppercase;
 }
 .main-heading h2::before {
@@ -64,25 +65,25 @@ ul {
     left: 50%;
     transform: translateX(-50%);
     background-color: #333;
-    height: 2px;
-    width: 120px;
-    bottom: -30px;
+    height: 0.2rem;
+    width: 12rem;
+    bottom: -3rem;
 }
 .main-heading h2::after {
     content: "";
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 14px;
-    height: 14px;
+    width: 1.4rem;
+    height: 1.4rem;
     border-radius: 50%;
     border: 2px solid #333;
-    bottom: -38px;
+    bottom: -3.8rem;
     background-color: white;
 }
 .main-heading p {
-    width: 550px;
-    margin: 0 auto 100px;
+    width: 55rem;
+    margin: 0 auto 10rem;
     line-height: 2;
     color: #777;
     max-width: 100%;
@@ -100,19 +101,19 @@ header .container {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    min-height: 97px;
+    min-height: 9.7rem;
 }
 header .container::after {
     content: "";
     position: absolute;
     background: #a2a2a2;
-    height: 1px;
+    height: 0.1rem;
     width: calc(100% - 30px);
     bottom: 0;
-    left: 15px;
+    left: 1.5rem;
 }
 header .logo img {
-    height: 40px;
+    height: 4rem;
 }
 header nav {
     flex: 1;
@@ -122,7 +123,7 @@ header nav {
 }
 header nav .toggle-menu {
     color: white;
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 @media (min-width: 768px) {
     header nav .toggle-menu {
@@ -146,15 +147,15 @@ header nav ul {
         background-color: rgb(0, 0, 0, 50%);
     }
     header nav .toggle-menu:hover + ul li a {
-        padding: 15px;
+        padding: 1.5rem;
     }
 }
 header nav ul li a {
     display: block;
     color: white;
     text-decoration: none;
-    font-size: 14px;
-    padding: 40px 10px;
+    font-size: 1.4rem;
+    padding: 4rem 1rem;
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -170,15 +171,15 @@ header nav ul li a:hover {
 }
 header nav .form {
     position: relative;
-    width: 40px;
-    height: 30px;
+    width: 4rem;
+    height: 3rem;
     border-left: 1px solid white;
-    margin-left: 30px;
+    margin-left: 3rem;
 }
 header nav .form i {
     color: white;
     position: absolute;
-    font-size: 20px;
+    font-size: 2rem;
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -209,7 +210,7 @@ header nav .form i {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    padding: 50px;
+    padding: 5rem;
     width: 50%;
     background-color: var(--transparent-color);
     color: white;
@@ -217,7 +218,7 @@ header nav .form i {
     justify-content: flex-end;
 }
 .landing .text .content {
-    max-width: 500px;
+    max-width: 50rem;
 }
 @media (max-width: 767px) {
     .landing .text {
@@ -228,13 +229,13 @@ header nav .form i {
     }
 }
 .landing .text .content h2 {
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: normal;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 .landing .text .content p {
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 2;
 }
 .landing .change-background {
@@ -253,10 +254,10 @@ header nav .form i {
     }
 }
 .landing .fa-angle-left {
-    left: 30px;
+    left: 3rem;
 }
 .landing .fa-angle-right {
-    right: 30px;
+    right: 3rem;
 }
 .landing .bullets {
     position: absolute;
@@ -266,12 +267,12 @@ header nav .form i {
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-    bottom: 30px;
+    bottom: 3rem;
     display: flex;
 }
 .landing .bullets li {
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
     border: 1px solid white;
     border-radius: 50%;
     margin-right: 5px;
@@ -290,9 +291,9 @@ header nav .form i {
 @media (min-width: 768px) {
     .services .services-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-        grid-column-gap: 40px;
-        grid-row-gap: 60px;
+        grid-template-columns: repeat(auto-fill, minmax(45rem, 1fr));
+        grid-column-gap: 4rem;
+        grid-row-gap: 6rem;
     }
 }
 .services .srv-box {
@@ -302,15 +303,15 @@ header nav .form i {
     .services .srv-box {
         flex-direction: column;
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 4rem;
     }
     .services .srv-box i {
         width: 100%;
-        margin: 0 0 30px;
+        margin: 0 0 3rem;
     }
 }
 .services .srv-box h3 {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     color: var(--main-color);
 }
 .services .srv-box p {
@@ -318,7 +319,7 @@ header nav .form i {
     color: #777;
 }
 .services .srv-box i {
-    margin-right: 50px;
+    margin-right: 5rem;
 }
 /* End Services */
 /* Start Design */
@@ -326,8 +327,8 @@ header nav .form i {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     position: relative;
-    background-image: url(/Images/design-features.jpg);
-    height: 600px;
+    background-image: url(../Images/design-features.jpg);
+    height: 60rem;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -358,26 +359,26 @@ header nav .form i {
 }
 .design .image img {
     position: relative;
-    bottom: -150px;
+    bottom: -15rem;
 }
 .design .text {
-    padding: 50px;
+    padding: 5rem;
     background-color: var(--transparent-color);
     color: white;
 }
 .design .text h2 {
     text-transform: uppercase;
     font-weight: normal;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 .design .text ul li {
-    padding: 15px 0;
+    padding: 1.5rem 0;
 }
 .design .text ul li::before {
     font-family: "Font Awesome 5 Free";
     content: "\f108";
     font-weight: 900;
-    margin-right: 20px;
+    margin-right: 2rem;
     position: relative;
     top: 1px;
 }
@@ -392,7 +393,7 @@ header nav .form i {
     justify-content: center;
 }
 .portfolio .shuffle li {
-    padding: 10px;
+    padding: 1rem;
 }
 .portfolio .shuffle li.active {
     background-color: var(--main-color);
@@ -401,7 +402,7 @@ header nav .form i {
 .portfolio .imgs-container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 60px;
+    margin-top: 6rem;
 }
 .portfolio .imgs-container .box {
     position: relative;
@@ -439,7 +440,7 @@ header nav .form i {
     background-color: white;
     position: absolute;
     left: 0;
-    padding: 20px;
+    padding: 2rem;
     width: 100%;
     transition: 0.3s;
     bottom: -100%;
@@ -450,7 +451,7 @@ header nav .form i {
 }
 .portfolio .imgs-container .box .caption h4 {
     font-weight: normal;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 .portfolio .imgs-container .box .caption p {
     color: var(--main-color);
@@ -459,8 +460,8 @@ header nav .form i {
     display: block;
     width: fit-content;
     background-color: var(--main-color);
-    padding: 15px 20px;
-    margin: 30px auto;
+    padding: 1.5rem 2rem;
+    margin: 3rem auto;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -479,31 +480,28 @@ header nav .form i {
     height: 100%;
     background-color: rgb(0, 0, 0, 40%);
 }
-.video video {
-    width: 100%;
-}
 .video .text {
     position: absolute;
     width: 100%;
     top: 50%;
     transform: translatey(-50%);
     color: white;
-    padding: 50px;
+    padding: 5rem;
     text-align: center;
     background-color: var(--transparent-color);
 }
 .video .text h2 {
-    margin: 0 0 30px;
+    margin: 0 0 3rem;
     text-transform: uppercase;
     font-weight: normal;
 }
 .video .text p {
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 .video .text button {
     background-color: black;
     color: white;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     text-transform: uppercase;
     border: none;
 }
@@ -516,14 +514,14 @@ header nav .form i {
 }
 .about img {
     position: relative;
-    bottom: -120px;
-    margin-top: -120px;
+    bottom: -12rem;
+    margin-top: -12rem;
     max-width: 100%;
 }
 @media (max-width: 767px) {
     .about img {
-        bottom: -60px;
-        margin-top: -60px;
+        bottom: -6rem;
+        margin-top: -6rem;
     }
 }
 /* End About */
@@ -532,7 +530,7 @@ header nav .form i {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     text-align: center;
-    background-image: url(/Images/stats.png);
+    background-image: url(../Images/stats.png);
     background-size: cover;
     position: relative;
 }
@@ -552,7 +550,7 @@ header nav .form i {
 }
 .stats .container .box {
     color: white;
-    padding: 50px;
+    padding: 5rem;
     background-color: var(--transparent-color);
 }
 @media (max-width: 767px) {
@@ -571,22 +569,22 @@ header nav .form i {
     }
 }
 .stats .container .box i {
-    width: 40px;
-    height: 40px;
+    width: 4rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
     border-radius: 50%;
-    margin: 0 auto 30px;
+    margin: 0 auto 3rem;
 }
 .stats .container .box .number {
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 .stats .container .box p {
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 /* End Stats */
 /* Start Skills */
@@ -605,7 +603,7 @@ header nav .form i {
     }
 }
 .our-skills .container > div > h3 {
-    margin: 0 0 30px;
+    margin: 0 0 3rem;
     font-weight: normal;
     text-align: center;
     text-transform: uppercase;
@@ -613,17 +611,17 @@ header nav .form i {
 .our-skills .container > div > p {
     line-height: 2;
     color: #777;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
     text-align: center;
 }
 .our-skills .container .content {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 .our-skills .container .content img {
-    width: 100px;
-    margin-right: 50px;
+    width: 10rem;
+    margin-right: 5rem;
     border-radius: 50%;
 }
 @media (max-width: 767px) {
@@ -632,7 +630,7 @@ header nav .form i {
         text-align: center;
     }
         .our-skills .container .content img {
-        margin: 0 auto 20px;
+        margin: 0 auto 2rem;
     }
 }
 .our-skills .testimonials .text {
@@ -642,41 +640,41 @@ header nav .form i {
 .our-skills .testimonials .text p {
     text-align: right;
     color: #777;
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
 }
 .our-skills .testimonials .bullets {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 .our-skills .testimonials .bullets li {
-    width: 14px;
-    height: 14px;
+    width: 1.4rem;
+    height: 1.4rem;
     border: 1px solid #aaa;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 .our-skills .testimonials .bullets li.active {
     background-color: var(--main-color);
     border-color: var(--main-color);
 }
 .our-skills .skills .prog-holder {
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 .our-skills .skills .prog-holder h4 {
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
     text-transform: uppercase;
     font-weight: normal;
 }
 .our-skills .skills .prog-holder .prog {
     background-color: #dedadc;
-    height: 30px;
+    height: 3rem;
 }
 .our-skills .skills .prog-holder .prog span{
     display: block;
@@ -687,12 +685,12 @@ header nav .form i {
 .our-skills .skills .prog-holder .prog span::before {
     content: attr(data-progress);
     position: absolute;
-    top: -40px;
-    right: -20px;
+    top: -4rem;
+    right: -2rem;
     background-color: black;
     color: white;
-    width: 40px;
-    padding: 4px 0;
+    width: 4rem;
+    padding: 0.4rem 0;
     text-align: center;
     border-radius: 4px;
 }
@@ -700,16 +698,16 @@ header nav .form i {
     content: "";
     position: absolute;
     border-style: solid;
-    border-width: 8px;
-    right: -8px;
-    top: -14px;
+    border-width: 0.8rem;
+    right: -0.8rem;
+    top: -1.4rem;
     border-color: black transparent transparent transparent;
 }
 /* End Skills */
 /* Start Qoute */
 .quote {
     position: relative;
-    background-image: url(/Images/quote.jpg);
+    background-image: url(../Images/quote.jpg);
     background-size: cover;
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
@@ -729,8 +727,8 @@ header nav .form i {
     position: relative;
 }
 .quote q {
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 3rem;
+    margin-bottom: 2rem;
     display: block;
 }
 /* End Qoute */
@@ -741,53 +739,53 @@ header nav .form i {
 }
 .pricing .plans {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: 3rem;
 }
 .pricing .plans .plan {
     background-color: #fcfcfc;
     text-align: center;
 }
 .pricing .plans .plan .head {
-    padding: 40px 20px;
+    padding: 4rem 2rem;
     border-top: 1px solid var(--main-color);
     border-bottom: 1px solid var(--main-color);
 }
 .pricing .plans .plan .head h3 {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     text-transform: uppercase;
     font-weight: normal;
 }
 .pricing .plans .plan .head span {
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: bold;
     position: relative;
 }
 .pricing .plans .plan .head span::before {
     content: "$";
-    font-size: 25px;
+    font-size: 2.5rem;
     position: relative;
-    top: -40px;
-    margin-right: 15px;
+    top: -4rem;
+    margin-right: 1.5rem;
     font-weight: normal;
 }
 .pricing .plans .plan .head span::after{
     content: "/Mo";
     position: relative;
-    font-size: 20px;
-    right: -15px;
+    font-size: 2rem;
+    right: -1.5rem;
 }
 .pricing .plans .plan ul {
     border-bottom: 1px solid var(--main-color);
 }
 .pricing .plans .plan ul li {
-    padding: 20px;
+    padding: 2rem;
     position: relative;
 }
 .pricing .plans .plan ul li:not(:last-child)::after {
     content: "";
     position: absolute;
-    width: 140px;
+    width: 14rem;
     height: 1px;
     background-color: var(--main-color);
     left: 50%;
@@ -800,11 +798,11 @@ header nav .form i {
 }
 .pricing .plans .plan .foot a {
     display: block;
-    padding: 20px;
+    padding: 2rem;
     border: 1px solid var(--main-color);
     width: fit-content;
     text-decoration: none;
-    margin: 30px auto;
+    margin: 3rem auto;
     color: var(--main-color);
     transition: .3s;
     -webkit-transition: .3s;
@@ -822,17 +820,17 @@ header nav .form i {
     background-color: var(--main-color);
 }
 .pricing .contact-text {
-    margin: 50px auto 30px;
+    margin: 5rem auto 3rem;
     text-align: center;
-    font-size: 20px;
+    font-size: 2rem;
 }
 .pricing .contact-link {
     display: block;
     width: fit-content;
-    margin: 20px auto;
+    margin: 2rem auto;
     text-decoration: none;
     color: white;
-    padding: 15px 30px;
+    padding: 1.5rem 3rem;
     transition: .3s;
     -webkit-transition: .3s;
     -moz-transition: .3s;
@@ -848,7 +846,7 @@ header nav .form i {
 .subscribe {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(/Images/subscribe.jpg);
+    background-image: url(../Images/subscribe.jpg);
     background-size: cover;
     color: white;
     position: relative;
@@ -874,7 +872,7 @@ header nav .form i {
 }
 .subscribe form {
     display: flex;
-    width: 500px;
+    width: 50rem;
     max-width: 100%;
     position: relative;
 }
@@ -882,21 +880,21 @@ header nav .form i {
     position: absolute;
     top: 50%;
     transform: translatey(-50%);
-    left: 25px;
+    left: 2.5rem;
 }
 .subscribe form input[type="email"] {
-    padding: 20px 20px 20px 60px;
+    padding: 2rem 2rem 2rem 6rem;
     background: none;
     border: 1px solid white;
     caret-color: var(--main-color);
-    width: calc(100% - 130px);
+    width: calc(100% - 13rem);
     border-right: none;
     color: white;
 }
 .subscribe form input[type="submit"] {
     background-color: var(--main-color);
-    width: 130px;
-    padding: 10px 20px;
+    width: 13rem;
+    padding: 1rem 2rem;
     color: white;
     text-transform: uppercase;
     border: 1px solid white;
@@ -911,11 +909,11 @@ header nav .form i {
 }
 .subscribe p {
     line-height: 2;
-    margin-left: 50px;
+    margin-left: 5rem;
 }
 @media (max-width: 991px) {
     .subscribe p {
-        margin: 30px 0 0;
+        margin: 3rem 0 0;
         text-align: center;
     }
 }
@@ -938,22 +936,22 @@ header nav .form i {
     flex-basis: 70%;
 }
 .contact .content form .main-input {
-    padding: 20px;
+    padding: 2rem;
     display: block;
     border: 1px solid #ccc;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 .contact .content form .main-input:focus {
     outline: none;
 }
 .contact .content form textarea.main-input {
-    height: 200px;
+    height: 20rem;
 }
 .contact .content form input[type="submit"] {
     background-color: var(--main-color);
     color: white;
-    padding: 20px;
+    padding: 2rem;
     margin-left: auto;
     display: flex;
     border: none;
@@ -971,7 +969,7 @@ header nav .form i {
 @media (max-width: 767px) {
     .contact .content .info {
         order: -1;
-        margin-bottom: 90px;
+        margin-bottom: 9rem;
         text-align: center;
         display: flex;
         justify-content: space-around;
@@ -979,17 +977,17 @@ header nav .form i {
 }
 .contact .content .info h4 {
     font-weight: bold;
-    margin-bottom: 30px;
-    font-size: 18px;
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
 }
 .contact .content .info .phone{
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     color: #777;
 }
 .contact .content .info .box:nth-of-type(2) {
-    margin-top: 90px;
+    margin-top: 9rem;
 }
 @media (max-width: 767px) {
     .contact .content .info .box:nth-of-type(2) {
@@ -1005,7 +1003,7 @@ header nav .form i {
 .footer {
     padding-top: calc(var(--section-padding) / 2);
     padding-bottom: calc(var(--section-padding) / 2);
-    background-image: url(/Images/subscribe.jpg);
+    background-image: url(../Images/subscribe.jpg);
     background-size: cover;
     color: white;
     position: relative;
@@ -1024,24 +1022,24 @@ header nav .form i {
     position: relative;
 }
 .footer img {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 .footer p:not(.copyright) {
-    font-size: 22px;
+    font-size: 2.2rem;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 2rem;
     border-bottom: 1px solid white;
     width: fit-content;
-    margin: 20px auto;
+    margin: 2rem auto;
 }
 .footer .social-icons {
     display: inline-flex;
-    width: 200px;
+    width: 20rem;
     justify-content: space-evenly;
-    margin: 20px 0;
+    margin: 2rem 0;
 }
 .footer .copyright {
-    margin-top: 60px;
+    margin-top: 6rem;
 }
 .footer .copyright span {
     font-weight: bold;
