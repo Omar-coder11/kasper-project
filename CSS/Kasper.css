@@ -906,6 +906,7 @@ header nav .form i {
 }
 .contact .content form textarea.main-input {
     height: 20rem;
+    resize: none;
 }
 .contact .content form input[type="submit"] {
     background-color: var(--main-color);
