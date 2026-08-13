@@ -942,6 +942,9 @@ header nav .form i {
         display: flex;
         justify-content: space-around;
     }
+    .contact .content form input[type="submit"] {
+        margin: auto;
+    }
 }
 .contact .content .info h4 {
     font-weight: bold;
